@@ -1,4 +1,4 @@
-#Proyecto de medición de Material Particulado con ESP32
+# Proyecto de medición de Material Particulado con ESP32
 ***
 
 Para la elaboración del prototipo se han elegido los siguientes componentes principales:
@@ -8,41 +8,47 @@ Para la elaboración del prototipo se han elegido los siguientes componentes pri
 *Módulo GPS NEO 6M: Para la recopilación de datos de ubicación geográfica, se utilizará un módulo GPS que permitirá geolocalizar cada medición de calidad del aire.
 *Indicadores LED: Se implementarán Leds para indicar visualmente el estado operativo del prototipo, facilitando la verificación y el diagnóstico rápido.
 
-
-##Estrutura del proyecto
 ***
+## Estrutura del proyecto
+
 ![MP_Estructura](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/c44aff2d-b871-4452-b852-b56fbcaeb651)
 
-###Arduino
+*** 
+## Digrama de conexiones
+
+![Diagrama Proyecto](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/4692f78a-acea-4e90-8abb-af8a81baa625)
+
+## Dispositivo
+![WhatsApp Image 2023-11-13 at 19 47 31](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/b559cf11-bce8-4341-ad15-58b552a1e246)
+![WhatsApp Image 2023-11-13 at 19 47 31 (1)](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/b7541bee-c064-4d1c-b36b-eca11ade68fd)
+
+
+### Arduino
 ![Captura de pantalla (627)](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/77d75c0d-1a23-48f0-b0a5-904afed3bfde)
 
-###ThingSpeak
+### ThingSpeak
 ![Captura de pantalla (669)](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/4101ff2f-cb69-4453-aad3-c3e26fc37863)
 
-###Grafana
+### Grafana
 ![Imagen1](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/f7176438-8b12-491f-873a-c91c48d24880)
 
 
 
-##Digrama de conexiones
-***
-![Diagrama Proyecto](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/4692f78a-acea-4e90-8abb-af8a81baa625)
 
-
-##Alertas
 ***
+## Alertas
+
 ###Telegram
 ![IMG_6397](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/c5e66967-6abf-491b-8908-324a1a21e5e6)
 ![IMG_6398](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/79b066bf-44f3-4d19-980c-c48470b1e57e)
 
-###Gmail 
+### Gmail 
 ![Captura de pantalla 2023-11-30 141016](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/1ee334e7-b38b-4306-a531-3bcef70a2883)
 ![Captura de pantalla 2023-11-30 141035](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/79c68d37-ad2b-4591-bc6a-962568051616)
 ![Captura de pantalla 2023-11-30 141054](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/2d400575-2df9-402b-bd3f-d3617522d37f)
 
-
-##Página
 ***
+## Página
 ![Captura de pantalla (660)](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/1a49a14f-61d8-41ff-9d26-513e9886f495)
 ![Captura de pantalla (662)](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/9936da3d-3ad5-48be-8ebf-a65f0f4cdf10)
 ![Captura de pantalla (663)](https://github.com/AnthyS12/Sistema_MaterialParticulado_IOT/assets/50304139/4533bd86-e53f-4f04-b658-d56ea203925b)
