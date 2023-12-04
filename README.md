@@ -1,5 +1,8 @@
 # Proyecto de medición de Material Particulado con ESP32
 ***
+El proyecto se basa en un sistema que posea sensores ambientales destinados a la toma de datos de material particulado haciendo uso del sensor de partículas SDS011. Además, desarrollar una plataforma web que permita la visualización y análisis de los datos en tiempo real obtenidos por el prototipo de sistema de material particulado.
+Es esencial monitorear y evaluar la concentración de material particulado en el aire, especialmente en entornos como las universidades, donde la comunidad puede estar expuesta de manera prolongada. Estos esfuerzos ayudan a obtener datos que pueden en un futuro servir para tomar medidas preventivas, implementar controles adecuados y promover un entorno más saludable para la comunidad universitaria.
+
 
 Para la elaboración del prototipo se han elegido los siguientes componentes principales:
 
@@ -10,7 +13,7 @@ Para la elaboración del prototipo se han elegido los siguientes componentes pri
 
 
 ## :hammer:Funcionalidades del proyecto
-- `Dispositivo IoT`: Se propone el diseño de un dispositivo de monitoreo de calidad del aire basado en IoT. Este dispositivo estará equipado con un sensor de material particulado, específicamente el SDS011, controlado por el microchip ESP32. El prototipo también integrará un módulo GPS para la recopilación de datos de ubicación y contará con indicadores visuales, como Leds, para verificar su funcionamiento en tiempo real.
+- `Dispositivo IoT`: Este dispositivo estará equipado con un sensor de material particulado, específicamente el SDS011, controlado por el microchip ESP32. El prototipo también integrará un módulo GPS para la recopilación de datos de ubicación y contará con indicadores visuales, como Leds, para verificar su funcionamiento en tiempo real.
 - `Plataforma Web para Visualización `: La información recopilada por el dispositivo se transmitirá a una plataforma especializada para dispositivos IoT, en este caso, se utilizará ThingSpeak. Esta plataforma proporcionará capacidad de almacenamiento y gestión de datos en la nube. Para la visualización de datos en tiempo real, se implementará Grafana. La interfaz de Grafana permitirá la creación de gráficos dinámicos y personalizados, proporcionando una representación visual clara y comprensible de los niveles de material particulado en la página web dedicada.
 - `Alertas`: La plataforma de visualización de datos estará vinculada a Grafana, una herramienta especializada en análisis que facilitará la interpretación de los datos recopilados. Se implementarán alertas directamente en la plataforma para notificar sobre situaciones de calidad del aire preocupantes. Estas alertas se configurarán para enviar notificaciones a través de Telegram y por correo a Gmail. 
 
