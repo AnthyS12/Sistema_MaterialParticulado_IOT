@@ -1,0 +1,76 @@
+.titulo{
+    margin-bottom: 0.5rem;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    // margin-left: -3rem;
+}
+.div-boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    // width: 100%;
+    // justify-content: space-between;
+}
+.boton{
+    padding: 0.7rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: #408a3ee6;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-color: #585858;
+}
+.boton:hover{
+    width: 100%;
+    margin-bottom: 1rem;
+    background: #139a0fe6;
+    color:#000000;
+}
+.table-contenedor{
+    height: 83%;
+}
+.table{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 2rem;
+}
+@media (min-width:768px){
+    .logo{
+        margin-bottom: 0;
+    }
+}
+.logo-imagen{
+    // background-image: url(/assets/LogoUleam.jpg);
+    position: absolute;
+    top: -150%;
+    right: 0;
+    width: auto;
+    height: 12rem;
+}
+@media (min-width:768px){
+    .div-boton{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .boton{    
+        width: 30%;  
+    }
+    .boton:hover{
+        width: 30%; 
+    }
+}

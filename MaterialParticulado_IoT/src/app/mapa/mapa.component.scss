@@ -1,0 +1,78 @@
+.titulo{
+    margin-bottom: 1rem;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    // margin-bottom: 1rem;
+    // margin-left: -3rem;
+}
+.contenedor {
+    width: 100%;
+    height: 70rem;
+    
+}
+.mapa{
+    width: 100%;
+    height: 100%;
+    
+}
+.margin{
+    margin-bottom: 1rem;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 50% 50%;  
+    row-gap: 5rem;
+}
+.div-mapa{
+    width: 100%;
+    height: 100%;
+}
+.h2{
+    text-align: center; 
+    margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+}
+.mapa{
+    width: 100%;
+    // margin-right: 5rem;
+    border-radius: 0.3rem;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 2rem;
+}
+@media (min-width:768px){
+    .logo{
+        margin-bottom: 0;
+    }
+}
+.logo-imagen{
+    // background-image: url(/assets/LogoUleam.jpg);
+    position: absolute;
+    top: -128%;
+    right: 0;
+    width: auto;
+    height: 12rem;
+}
+@media (min-width:768px){
+    .grid{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 1.5rem;
+    }
+    .contenedor {
+        width: 100%;
+        height: 84%;
+    }
+    .mapa{
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
